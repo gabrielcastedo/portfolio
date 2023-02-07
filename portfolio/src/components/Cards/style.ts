@@ -76,7 +76,7 @@ export const BodyCard = styled.div`
   div {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-left: 20px;
   }
 
@@ -87,6 +87,83 @@ export const BodyCard = styled.div`
   p {
     color: #ffffff;
     margin-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .divMaquideEscrever{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .maquinaDeEscrever {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    height: auto;
+    white-space: nowrap;
+    font-size: 14px;
+    width: 0;
+    animation: 
+      typing 2s steps(20, end) forwards,
+      blink .8s infinite;
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      from { border-color: transparent }
+      to { border-color: orange; }
+    }
+  }
+
+  .maquinaDeEscrever2 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    height: auto;
+    white-space: nowrap;
+    font-size: 14px;
+    width: 0;
+    animation: 
+      typing 2s steps(20, end) forwards,
+      blink .8s infinite;
+
+    animation-delay: 2s;
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      from { border-color: transparent }
+      to { border-color: orange; }
+    }
+  }
+
+  .maquinaDeEscrever3 {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    height: auto;
+    white-space: nowrap;
+    font-size: 14px;
+    width: 0;
+    animation: 
+      typing 2s steps(20, end) forwards,
+      blink .8s infinite;
+    animation-delay: 4s;
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      from { border-color: transparent }
+      to { border-color: orange; }
+    }
   }
 `;
 

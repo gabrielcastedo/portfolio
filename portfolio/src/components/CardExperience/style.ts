@@ -48,6 +48,24 @@ export const MiniHeader = styled.section`
   display: flex;
 `;
 
+export const DescricaoStyle = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+
+  h2{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+`
+
 export const ButtonColor = styled.button`
   margin-left: 8px;
   border-radius: 90px;

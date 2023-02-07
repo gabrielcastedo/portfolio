@@ -43,9 +43,10 @@ function Home() {
       </Paragrafo>
       <Experiencia>
         <CardExperience
-          anoDeAtuacao="2019-Atualmente"
-          nomeEmpresa="Centro Médico Cacoal"
+          anoDeAtuacao="09/2022 - Atualmente"
+          nomeEmpresa="Develoci"
           linkImagem=""
+          descricao="Implementar features no back e front-end; Solucionar bugs no back e front-end; Realizar integrações; Gerenciar ecommerce via Salesforce; Revisar código, aprovar pull requests e deployar em ambientes de testes."
         />
         <CardExperience
           anoDeAtuacao="2016-2017"

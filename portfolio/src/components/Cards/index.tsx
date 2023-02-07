@@ -23,11 +23,15 @@ function Card() {
           </section>
           <div>
             <h2>Profissão:</h2>
-            <p>Desenvolvedor Full Stack;</p>
+            <div className="divMaquideEscrever">
+              <p className="maquinaDeEscrever">Desenvolvedor Full Stack;</p>
+            </div>
           </div>
           <div>
             <h2>Tecnologias: </h2>
-            <p>HTML, CSS, JavaScript, Python, React.js, Linux;</p>
+            <div className="divMaquideEscrever">
+              <p className="maquinaDeEscrever2">JavaScript, TypeScript, React, Salesforce, Python, Linux;</p>
+            </div>
           </div>
           <section>{"}"}</section>
         </nav>
@@ -38,7 +42,9 @@ function Card() {
           </section>
           <div>
             <h2>Cursos: </h2>
-            <p>Kenzie Academy - Formação Full Stack;</p>
+            <div className="divMaquideEscrever">
+              <p className="maquinaDeEscrever3">Kenzie Academy - Formação Full Stack;</p>
+            </div>
           </div>
           <section> {"}"}</section>
         </nav>
